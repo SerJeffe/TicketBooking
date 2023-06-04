@@ -19,7 +19,7 @@ public class FrontDesk {
         //initializing show lists
         String[] date = {"22/05/2023", "23/05/2023", "24/05/2023"};
         String[] time = {"11:00", "18:00", "20:00"};
-        String[] name = {"Guardians of the Galaxy Vol 2", "Suzume", "Abesh the hawsi"};
+        String[] name = {"Guardians of the Galaxy Vol 2", "Suzume", "Abesh"};
         double[] price = {250.50,300,1450};
         for (int i = 0; i < name.length; i++) {
             shows.add(new Show(name[i], date[i], time[i], price[i]));
